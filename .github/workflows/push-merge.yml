@@ -25,7 +25,7 @@ jobs:
       - name: Merge squashed changes into main
         run: |
           git checkout main
-          git merge auto-update
+          git merge auto-update --allow-unrelated-histories
           git status
           cat README.md
           git commit -m "Manual merge - $(date +'%Y-%m-%d')"
