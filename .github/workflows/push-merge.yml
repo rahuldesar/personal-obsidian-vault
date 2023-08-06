@@ -16,21 +16,23 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Merge branch `auto-update` into main
+      - name: Set up Git
         run: |
           git config user.name "Rahul Deshar"
           git config user.email desarrahul@gmail.com
-          pwd
-          git config --list
-          echo "==============================="
-          git branch
-          git fetch
-          git branch
+          git fetch origin main
+
+      - name: Squash changes from auto-update branch
+        run: |
+          git checkout auto-update
+          git rebase -i HEAD~$(git rev-list --count main..auto-update) -x "git commit -c ORIG_HEAD"
+
+      - name: Merge squashed changes into main
+        run: |
           git checkout main
-          echo "==============================="
-          echo "==============================="
-          cat README.md
-          git merge auto-update --allow-unrelated-histories
-          git push
+          git merge --squash auto-update
+          git commit -m "Manual merge - $(date +'%Y-%m-%d')"
+          git push origin main
+
         env:
           PAT: ${{ secrets.ACCESS_TOKEN }}
