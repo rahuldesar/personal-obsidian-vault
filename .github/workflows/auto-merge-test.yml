@@ -1,8 +1,8 @@
-name: Merge staging to main every day
+name: Merge staging to main every 2 minutes
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "*/2 * * * *"
 
 jobs:
   merge-branch:
