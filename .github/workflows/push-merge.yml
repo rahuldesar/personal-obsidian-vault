@@ -15,7 +15,7 @@ jobs:
 
       - name: Merge branch `auto-update` into main
         run: |
-          git config user.name Rahul Deshar
+          git config user.name "Rahul Deshar"
           git config user.email desarrahul@gmail.com
           pwd
           git config --list
