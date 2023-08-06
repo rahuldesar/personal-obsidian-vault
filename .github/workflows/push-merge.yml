@@ -19,12 +19,14 @@ jobs:
           git config user.email desarrahul@gmail.com
           pwd
           git config --list
+          echo "==============================="
           git branch
           git fetch
           git branch
           git checkout main
-          git merge --squash auto-update --allow-unrelated-histories
-          git commit -m "Merge Test - $(date +'%Y-%m-%d')" # Set commit message with current date
-          git push --quiet --set-upstream origin main
+          echo "==============================="
+          echo "==============================="
+          cat README.md
+          git merge auto-update --squash
         env:
           PAT: ${{ secrets.ACCESS_TOKEN }}
