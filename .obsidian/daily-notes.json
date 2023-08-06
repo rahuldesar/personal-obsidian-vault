@@ -1,0 +1,5 @@
+{
+  "folder": "content/todo/daily",
+  "template": "assests/backup-templates/daily/Daily Note",
+  "autorun": true
+}
