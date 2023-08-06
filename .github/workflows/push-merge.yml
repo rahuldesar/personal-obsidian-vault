@@ -30,7 +30,7 @@ jobs:
           echo "==============================="
           echo "==============================="
           cat README.md
-          git merge auto-update --squash --allow-unrelated-histories
+          git merge auto-update --allow-unrelated-histories
           git push
         env:
           PAT: ${{ secrets.ACCESS_TOKEN }}
