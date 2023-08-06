@@ -1,3 +1,3 @@
 # personal-obsidian-vault
 
-"auto-update works"
+"auto-update doesn't"
