@@ -1,4 +1,9 @@
-name:= Merge Manual
+name: Push Merge - test
+
+on:
+  push:
+    branches:
+      - auto-update
 
 jobs:
   merge:
@@ -14,7 +19,7 @@ jobs:
         git config user.email desarrahul@gmail.com
         git checkout main
         git merge --squash auto-update
-        git commit -m "Manual merge - $(date +'%Y-%m-%d')" # Set commit message with current date
+        git commit -m "Merge Test - $(date +'%Y-%m-%d')" # Set commit message with current date
         git push --quiet --set-upstream origin main
       env:
         PAT: ${{ secrets.ACCESS_TOKEN }}
