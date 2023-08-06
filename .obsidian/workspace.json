@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e1d0cb61fd6eab41",
+        "id": "906342b11cbc8dbb",
         "type": "tabs",
         "children": [
           {
-            "id": "87ed855024f6ab31",
+            "id": "3c3552a47dcc1f5c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -136,8 +136,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "2021df7225c1647f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -155,44 +164,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "87ed855024f6ab31",
+  "active": "3c3552a47dcc1f5c",
   "lastOpenFiles": [
+    "assests/backup-templates/Create Anki card.md",
+    "content/learning/programming/general",
+    "content/learning/programming/language",
+    "content/learning/tools-and-editor/git/README.md",
+    "content/learning/tools-and-editor/git/basics.md",
+    "content/learning/tools-and-editor/git/medium.md",
+    "content/learning/tools-and-editor/git/advanced.md",
     "README.md",
+    "content/todo-and-reminder/daily/2023-08-06.md",
+    "content/learning/linux",
+    "content/learning/programming/language/typescript/index.md",
+    "content/learning/programming/language/rust/index.md",
+    "content/learning/programming/language/javascript/index.md",
+    "content/learning/programming/general/data-structure/trees",
+    "content/learning/programming/general/data-structure/sorting",
+    "content/learning/programming/general/data-structure/recursion",
+    "content/learning/programming/general/data-structure/linked-list",
+    "content/learning/programming/general/data-structure/index.md",
+    "content/learning/programming/general/data-structure/heap-queue",
+    "content/learning/programming/general/data-structure/hash",
+    "content/learning/programming/general/data-structure/graph",
+    "content/learning/programming/general/design-pattern/index.md",
+    "content/learning/programming/language/css/index.md",
+    "content/learning/programming/code-examples/code-test.md",
+    "content/learning/tools-and-editor/tmux/index.md",
+    "content/learning/tools-and-editor/nvim/index.md",
+    "content/learning/tools-and-editor/git/index.md",
     "assests/backup-templates/daily/Daily Note.md",
-    "content/todo/daily/2023-08-06.md",
     "content/truemark/projects/polothemes-docs/index.md",
     "content/truemark/projects/mccs/index.md",
     "content/truemark/projects/decap-editor/index.md",
     "content/truemark/projects/communication/index.md",
     "content/truemark/personal/goals/index.md",
     "content/truemark/standup/index.md",
-    "content/truemark/projects/polothemes-docs",
-    "content/truemark/projects/mccs",
     "content/truemark/projects/index.md",
-    "content/truemark/projects/decap-editor",
-    "content/truemark/projects/communication",
-    "content/truemark/personal/goals",
-    "content/todo/weekly/index.md",
-    "content/todo/montly/index.md",
-    "content/todo/daily/2023-08-05.md",
-    "content/projects/docusaurus-obsidian-site/index.md",
-    "content/learning/typescript/index.md",
-    "content/learning/tmux/index.md",
-    "content/learning/rust/index.md",
-    "content/learning/nvim/index.md",
-    "content/learning/javascript/index.md",
-    "content/learning/git/index.md",
-    "content/learning/design-pattern/index.md",
-    "content/learning/data-structure/index.md",
-    "content/learning/css/index.md",
-    "content/truemark/standupUntitled 3.md",
-    "content/truemark/standup",
-    "content/truemark/projects",
-    "content/truemark/personal",
-    "content/todo/weekly",
-    "content/todo/montly",
-    "assests/templates/truemark/standup-template.md",
-    "assests/backup-templates/monthly/Montly Note.md",
+    "content/todo-and-reminder/weekly/index.md",
     "Untitled.canvas",
     "snippets/Folding arrows/demo.png",
     "Snippets/Folding arrows/demo.png",
