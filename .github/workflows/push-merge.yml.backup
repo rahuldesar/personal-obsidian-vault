@@ -1,8 +1,9 @@
-name: Daily - Merge staging into main
+name: Merge staging to main
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
+  push:
+    branches:
+      - "staging"
 
 jobs:
   merge-branch:
@@ -10,8 +11,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          ref: staging
 
       - name: Merge staging -> main
         uses: devmasx/merge-branch@master
