@@ -2,5 +2,10 @@
   "vimMode": true,
   "spellcheck": false,
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "node_modules/",
+    "static/",
+    "src/"
+  ]
 }
